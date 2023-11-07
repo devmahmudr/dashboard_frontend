@@ -1,0 +1,63 @@
+.lupa {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 2px;
+}
+.avatar{
+ width: 55px;
+ height: 55px;
+ border-radius: 50%; 
+}
+.header {
+  display: flex;
+  align-items: center;
+  background: #f7f7f7;
+  padding: 20px 25px;
+  max-width: 1110px;
+  width: 100%;
+  border-radius: 12px;
+
+  span {
+    height: 25px;
+    width: 1px;
+    margin: 0px 25px;
+    border: 1px solid #c5c5c5;
+  }
+  &__left > form {
+    position: relative;
+    display: flex;
+    align-items: center;
+    input {
+      width: 800px;
+      outline: none;
+      padding: 15px 25px;
+      border-radius: 8px;
+      border: 1px solid #c5c5c5;
+      &::placeholder {
+        color: #343434;
+        font-size: 16px;
+        font-weight: 400;
+      }
+    }
+  }
+
+  &__right {
+    display: flex;
+    cursor: pointer;
+    column-gap: 10px;
+    align-items: center;
+    &__details {
+      p {
+        color: #343434;
+        font-size: 14px;
+        font-weight: 700;
+      }
+      span {
+        color: #100db1;
+        font-size: 12px;
+        font-weight: 400;
+      }
+    }
+  }
+}

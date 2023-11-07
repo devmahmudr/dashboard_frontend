@@ -1,0 +1,29 @@
+.newD__container {
+  margin-top: 20px;
+  background: #fff;
+  border: 1px solid #E7E7E7;
+  border-radius: 12px;
+  padding-bottom: 80px;
+}
+.newD__details {
+  margin-top: 50px;
+  // width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.newD__title {
+  color: #100db1;
+  font-size: 14px;
+  font-weight: 700;
+}
+.success__container {
+  position: absolute;
+  top: 150px;
+  right: 0;
+  transition: all ease 1.1s;
+  transform: translateX(220px);
+}
+.success_alert {
+  transform: translateX(0);
+}
